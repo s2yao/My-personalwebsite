@@ -1,0 +1,89 @@
+body {
+    background: ivory;  /*background for body*/
+    color: black; /*字体颜色*/
+    font-family: Arial, Helvetica, sans-serif; /* font不知道咋运作的 */
+    text-align: center; /*align in centre*/ 
+    /*margin: 0; deleted the margin for the entire website*/ 
+}
+
+#hdr {
+    min-height: 220px;  /*header高度*/
+    padding-top: 3em;  /*填充*/
+    padding-bottom: 3em;  /*填充*/
+    padding-left: 1.5em;  /*填充*/
+    padding-right: 1.5em;  /*填充*/
+}
+
+.dest {
+    background: #f3dad8;  /*background for dest class*/
+    display: inline-block;  /* sets the display property of dest class to horizontal (vertical by default)*/
+    width: 30%;  /*sets the width of the dest class 40%*/
+}
+
+h2, h3, p {
+    margin: 0; /*不知道干嘛的*/
+}
+
+img {
+    width: 100%;  /*takes up 100% of the current block*/
+}
+
+.btn {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+.btn:hover {
+    background-color: green;
+    color: white;
+}
+
+
+.hdr-bg {
+    background: url(../Image/maxresdefault.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 260px;
+    position: absolute;
+    z-index: -1;
+    opacity: 50%;
+    margin: 0;
+}
+
+
+h2, h3 {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+#contact {
+    background: #a1c349;
+    min-height: 100px;
+}
+
+.prices {
+    background: #87a330;
+    min-height: 100px;
+}
+
+footer {
+    min-height: 60px;
+    position: relative;
+    background: #cad593;
+    line-height: 50px;
+}
+
+section {
+    padding-bottom: 1.5em;
+}
