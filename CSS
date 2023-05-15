@@ -18,14 +18,37 @@ body {
     background: #f3dad8;  /*background for dest class*/
     display: inline-block;  /* sets the display property of dest class to horizontal (vertical by default)*/
     width: 30%;  /*sets the width of the dest class 40%*/
+    padding-bottom: 2em;
+}
+
+.dest-text {
+    padding-top: 1em;
+    font-size: 16px;
+    font: oblique;
 }
 
 h2, h3, p {
     margin: 0; /*不知道干嘛的*/
 }
 
+h1 {
+    padding-top: 8em;
+}
+
 img {
     width: 100%;  /*takes up 100% of the current block*/
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+}
+
+img > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
 }
 
 .btn {
